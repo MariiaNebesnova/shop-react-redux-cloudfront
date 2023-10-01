@@ -1,3 +1,7 @@
+Link to aws s3 bucket: https://shop-react-1.s3.amazonaws.com/index.html
+CloudFront wasn't set up because of accout verification issues. A ticket to support was created.
+
+
 # React-shop-cloudfront
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:

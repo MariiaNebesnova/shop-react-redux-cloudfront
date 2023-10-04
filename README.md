@@ -1,5 +1,5 @@
 Link to aws s3 bucket: https://shop-react-1.s3.amazonaws.com/index.html
-CloudFront wasn't set up because of accout verification issues. A ticket to support was created.
+Link to cloudfront: https://d3fnxnw6wufoau.cloudfront.net/
 
 
 # React-shop-cloudfront

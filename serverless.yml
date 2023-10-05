@@ -21,7 +21,7 @@ plugins:
 
 custom:
   client:
-    bucketName: shop-react-1
+    bucketName: shop-react-3
     distributionFolder: dist
   s3BucketName: ${self:custom.client.bucketName}
 
@@ -38,7 +38,11 @@ resources:
       Type: AWS::S3::Bucket
       Properties:
         BucketName: ${self:custom.s3BucketName}
-        AccessControl: PublicRead
+        PublicAccessBlockConfiguration:
+           BlockPublicAcls: false
+        OwnershipControls:
+          Rules:
+            - ObjectOwnership: ObjectWriter
         WebsiteConfiguration:
           IndexDocument: index.html
           ErrorDocument: index.html

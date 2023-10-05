@@ -1,5 +1,5 @@
-Link to aws s3 bucket: https://shop-react-1.s3.amazonaws.com/index.html
-Link to cloudfront: https://d3fnxnw6wufoau.cloudfront.net/
+Link to aws s3 bucket: https://shop-react-3.s3.amazonaws.com/index.html
+Link to cloudfront: https://dnvox5o08jy1l.cloudfront.net/
 
 
 # React-shop-cloudfront

@@ -1,4 +1,4 @@
-Link to aws s3 bucket: https://shop-react-3.s3.amazonaws.com/index.html
+Link to aws s3 bucket: http://shop-react-3.s3-website-us-east-1.amazonaws.com
 Link to cloudfront: https://dnvox5o08jy1l.cloudfront.net/
 
 

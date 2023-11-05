@@ -39,9 +39,12 @@ export default function CSVFileImport({ url, title }: CSVFileImportProps) {
     const result = await fetch(response.data, {
       method: "PUT",
       body: file,
+      headers: {
+        'Content-Type': 'application/octet-stream',
+      },
     });
     console.log("Result: ", result);
-    setFile(undefined);
+    setFile(file);
   };
   return (
     <Box>
